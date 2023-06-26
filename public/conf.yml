@@ -39,3 +39,12 @@ sections:
         description: Get help with Dashy, raise a bug, or get in contact
         url: https://github.com/Lissy93/dashy/blob/master/.github/SUPPORT.md
         icon: far fa-hands-helping
+sections:
+  - name: teste
+    icon: fas fa-rocket
+    items:
+      - title: TrueNas
+        description: TrueNas
+        icon: https://camo.githubusercontent.com/e729a94390101853efb6a7a6a37af3cd3153b1b0f5e0f9f3b43d8fe2b96c1570/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f77616c6b78636f64652f64617368626f6172642d69636f6e732f706e672f747275656e61732d636f72652e706e67
+        url: http://bpinto.no-ip.org:81/ui/sessions/signin
+        target: newtab
