@@ -67,7 +67,6 @@ sections:
           https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/truenas-core.png
         url: http://bpinto.no-ip.org:81/ui/sessions/signin
         target: newtab
-        statusCheckUrl: http://bpinto.no-ip.org:81/ui/sessions/signin
         id: 0_707_truenasbpintonoiporg
       - title: Plex
         description: Plex
@@ -81,3 +80,17 @@ sections:
         url: http://bpinto.no-ip.org:8181/home
         target: newtab
         id: 2_707_plexpi
+      - title: Transmission
+        description: Transmission
+        icon: >-
+          https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/transmission.png
+        url: http://bpinto.no-ip.org:9101/transmission/web/
+        target: newtab
+        id: 3_707_transmission
+      - title: qBittorrent
+        description: qBittorrent
+        icon: >-
+          https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/qbittorrent.png
+        url: http://bpinto.no-ip.org:8080/
+        target: newtab
+        id: 4_707_qbittorrent
