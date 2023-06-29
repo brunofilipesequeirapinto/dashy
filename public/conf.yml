@@ -176,3 +176,17 @@ sections:
         url: https://drive.google.com/drive/u/2/my-drive
         target: newtab
         id: 1_727_drive
+      - title: Github
+        description: Github
+        icon: >-
+          https://camo.githubusercontent.com/d2ed29fababf51e8e9e3db4cab34334dbfa05f4d86d0c16b8533a5422ac6ca7f/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f77616c6b78636f64652f64617368626f6172642d69636f6e732f706e672f6769746875622d6c696768742e706e67
+        url: https://github.com/brunofilipesequeirapinto
+        target: newtab
+        id: 2_727_github
+      - title: Netlify
+        description: Netlify
+        icon: >-
+          https://camo.githubusercontent.com/5510743248236c5641a1e07217bd019807ce483403cd8f4c8fcfa24c12c7d0bb/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f77616c6b78636f64652f64617368626f6172642d69636f6e732f706e672f646f636b65722e706e67
+        url: https://app.netlify.com/sites/rainbow-dasik-5e7d49/overview
+        target: newtab
+        id: 3_727_netlify
