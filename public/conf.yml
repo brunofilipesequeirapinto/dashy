@@ -1,13 +1,13 @@
 pageInfo:
-  title: Dashy
-  description: Welcome to your new dashboard!
+  title: Bpinto Dashboard
+  description: Bpinto Dashboard
   navLinks:
     - title: GitHub
       path: https://github.com/Lissy93/dashy
     - title: Documentation
       path: https://dashy.to/docs
 appConfig:
-  theme: colorful
+  theme: adventure
   language: pt
 sections:
   - name: Getting Started
@@ -45,13 +45,19 @@ sections:
         url: https://github.com/Lissy93/dashy/blob/master/.github/SUPPORT.md
         icon: far fa-hands-helping
         id: 5_1481_support
+      - title: Icons
+        description: Icons
+        icon: ''
+        url: https://github.com/walkxcode/dashboard-icons
+        target: newtab
+        id: 6_1481_icons
     displayData:
       sortBy: default
       rows: 1
-      cols: 2
+      cols: 1
       collapsed: false
       hideForGuests: false
-  - name: Paginas
+  - name: Home - Services
     icon: >-
       https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/firefox-reality.png
     displayData:
@@ -67,33 +73,40 @@ sections:
           https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/truenas-core.png
         url: http://bpinto.no-ip.org:81/ui/sessions/signin
         target: newtab
-        id: 0_707_truenascasa
+        id: 0_1338_truenascasa
       - title: Plex
         description: Plex
         icon: https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/plex.png
         url: http://bpinto.no-ip.org:32400/web/index.html#!/
         target: newtab
-        id: 1_707_plex
+        id: 1_1338_plex
       - title: PlexPi
         description: PlexPi
         icon: https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/tautulli.png
         url: http://bpinto.no-ip.org:8181/home
         target: newtab
-        id: 2_707_plexpi
+        id: 2_1338_plexpi
       - title: Transmission
         description: Transmission
         icon: >-
           https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/transmission.png
         url: http://bpinto.no-ip.org:9101/transmission/web/
         target: newtab
-        id: 3_707_transmission
+        id: 3_1338_transmission
       - title: qBittorrent
         description: qBittorrent
         icon: >-
           https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/qbittorrent.png
         url: http://bpinto.no-ip.org:8080/
         target: newtab
-        id: 4_707_qbittorrent
+        id: 4_1338_qbittorrent
+      - title: NextCloud
+        description: NextCloud
+        icon: >-
+          https://camo.githubusercontent.com/13ea0aecbd5d03fd8ae5bdf0e39b1cbb029daf9d941d6b39baf6ae6bd74566c7/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f77616c6b78636f64652f64617368626f6172642d69636f6e732f706e672f6e657874636c6f75642e706e67
+        url: https://bpinto.no-ip.org
+        target: newtab
+        id: 5_1338_nextcloud
   - name: Serviços FAP - Internos
     icon: https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/storj.png
     displayData:
@@ -127,4 +140,39 @@ sections:
         url: https://192.168.51.6:8006
         target: newtab
         id: 3_2184_proxmoxvivenda
-
+      - title: Zentyal
+        description: Zentyal
+        icon: >-
+          https://zentyal.com/wp-content/themes/storefront-zentyal-child/assets/images/zentyal-logo.svg
+        url: https://fileserver:8443/Login/Index
+        target: newtab
+        id: 4_2184_zentyal
+      - title: VideoNAS
+        description: VideoNAS
+        icon: >-
+          https://camo.githubusercontent.com/c4c31b1b552c00712f5f4ec1023fba48eb2dde68f5cb44df90d6785bf22629fd/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f77616c6b78636f64652f64617368626f6172642d69636f6e732f706e672f73796e6f6c6f67792e706e67
+        url: http://192.168.51.8:5000/webman/index.cgi
+        target: newtab
+        id: 5_2184_videonas
+  - name: Pessoal
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: Gmail
+        description: Gmail
+        icon: >-
+          https://camo.githubusercontent.com/3cd34fcec8c52e5b2680a9b2d29442de7f982604eb2ab34f820adb696ebda6b2/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f77616c6b78636f64652f64617368626f6172642d69636f6e732f706e672f676f6f676c652e706e67
+        url: https://mail.google.com/mail/u/2/#inbox
+        target: newtab
+        id: 0_727_gmail
+      - title: Drive
+        description: Drive
+        icon: >-
+          https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/google-drive.png
+        url: https://drive.google.com/drive/u/2/my-drive
+        target: newtab
+        id: 1_727_drive
